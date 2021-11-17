@@ -1,8 +1,6 @@
 import { NgModule } from "@angular/core";
-import { RouterModule } from "@angular/router";
-import { ChorrillosModule } from "./chorrillos/chorrillos.module";
 import { LimaComponent } from "./lima.component";
-import { SanMiguelModule } from "./san-miguel/san-miguel.module";
+import { LimaRoutingModule } from "./lima.routing.module";
 
 const COMPONENTS = [
   LimaComponent,
@@ -11,9 +9,7 @@ const COMPONENTS = [
 @NgModule({
   declarations: [...COMPONENTS],
   imports: [
-    ChorrillosModule,
-    SanMiguelModule,
-    RouterModule,
+    LimaRoutingModule,
   ],
   exports: [...COMPONENTS],
 })

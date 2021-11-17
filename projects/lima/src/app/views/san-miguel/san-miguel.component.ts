@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 
 @Component({
-  template: 'Welcome to San Miguel',
+  templateUrl: './san-miguel.component.html',
 })
 export class SanMiguelComponent { }
