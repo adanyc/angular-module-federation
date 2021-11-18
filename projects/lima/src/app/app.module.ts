@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LimaModule } from './views/lima.module';
 
 @NgModule({
   declarations: [
@@ -12,9 +11,7 @@ import { LimaModule } from './views/lima.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LimaModule,
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
